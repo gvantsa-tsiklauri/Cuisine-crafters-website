@@ -13,10 +13,9 @@ function Carousel() {
             opacity: 0,
         });
         gsap.to(".carousel", {
-            delay: 1, // Using a delay of 0.5 seconds
+            delay: 1, 
             duration: 1,
             opacity: 1,
-            ease: "expo.out",
         });
     }, []);
     
