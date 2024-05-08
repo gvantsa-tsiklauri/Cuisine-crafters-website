@@ -16,6 +16,7 @@ function Carousel() {
             delay: 1, 
             duration: 1,
             opacity: 1,
+            ease: 'power4',
         });
     }, []);
     
